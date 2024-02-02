@@ -2,11 +2,34 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import LinkBtn from "./LinkBtn";
 
 const HeaderSection = () => {
   return (
-    <div className="container mx-auto px-12 py-4 h-screen flex">
-      <section className="flex">
+    <div className=" container mx-auto mt-24 py-4 px-4 flex">
+      <div className="bg-[#0D123B] flex flex-col rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] md:flex-row">
+        <div className="bg-[#0D123B] flex flex-col justify-start p-6 col-span-8 place-self-center text-center sm:text-left ">
+          <h5 className="mb-6 text-2xl font-medium text-neutral-800 dark:text-neutral-50">
+            為您提升企巢效益、促進成交
+          </h5>
+          <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+            巨集科技有限公司是澳門一家致力於創新科技領域的企業。我們提供多項尖端技術和服務，以滿足客戶的不同需求。我們的團隊具有豐富的軟件開發經驗，致力於為客戶打造高效、安全且易用的應用程序。
+          </p>
+          <p className="mb-6 text-base text-neutral-600 dark:text-neutral-200">
+            我們的專業顧問團隊為客戶提供全面的IT咨詢，幫助客戶制定有效的科技戰略和解決方案。
+          </p>
+          <div className="text-neutral-500 dark:text-neutral-300">
+            <LinkBtn title={"聯絡我們"} url={"/#contact"} />
+          </div>
+        </div>
+        <img
+          className="h-[320px] w-full rounded-r-lg object-cover md:rounded-none md:rounded-r-lg"
+          src={"./images/ui/header.jpg"}
+          alt=""
+        />
+      </div>
+
+      {/* <section className="flex">
         <div className="grid grid-cols-1 sm:grid-cols-12">
           <div className="col-span-4 place-self-center mt-4 lg:mt-0">
             <div className="lg:w-[650px] lg:h-[650px] relative w-[250px] h-[250px]">
@@ -49,7 +72,7 @@ const HeaderSection = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

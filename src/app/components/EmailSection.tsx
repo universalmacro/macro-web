@@ -41,28 +41,19 @@ const EmailSection = () => {
 
   return (
     <div className="container mt-24 mx-auto px-12 py-4">
-
       <section
         id="contact"
         className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
       >
         <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-        <div className="z-10">
-          <h5 className="text-xl font-bold text-white my-2">聯絡我們</h5>
-          <p className="text-[#ADB7BE] mb-4 max-w-md">
-            {" "}
-            I&apos;m currently looking for new opportunities, my inbox is always
-            open. Whether you have a question or just want to say hi, I&apos;ll
-            try my best to get back to you!
+        <div className="">
+          <h5 className="text-4xl font-bold text-white my-2 mb-8">聯絡我們</h5>
+          <p className="text-white mb-4 max-w-md mr-8 text-[14px] leading-6">
+            巨集科技有限公司是澳門一家致力於創新科技領域的企業。我們提供多項尖端技術和服務，以滿足客戶的不同需求。我們的團隊具有豐富的軟件開發經驗，致力於為客戶打造高效、安全且易用的應用程序。
           </p>
-          <div className="socials flex flex-row gap-2">
-            <Link href="github.com">
-              <Image src={GithubIcon} alt="Github Icon" />
-            </Link>
-            {/* <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
-          </Link> */}
-          </div>
+          <p className="text-white max-w-md mr-8 text-[14px] leading-6">
+            我們的專業顧問團隊為客戶提供全面的IT咨詢，幫助客戶制定有效的科技戰略和解決方案。
+          </p>
         </div>
         <div>
           {emailSubmitted ? (

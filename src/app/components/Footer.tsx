@@ -2,11 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="container mt-24 mx-auto px-12 py-4">
-      <footer className="footer border z-10 border-t-[#33353F] border-l-transparent border-r-transparent text-white">
-        <div className="container p-12 flex justify-between">
-          <span>LOGO</span>
-          <p className="text-slate-600">All rights reserved.</p>
+    <div className="container mx-auto px-12 py-4">
+      <footer className="footer z-10 text-white">
+        <div className="container p-12 text-center">
+          <p className="font-semibold text-white">© 2024 巨集科技有限公司</p>
         </div>
       </footer>
     </div>

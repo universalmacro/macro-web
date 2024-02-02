@@ -4,14 +4,14 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import EmailSection from "./components/EmailSection";
 import HeaderSection from "./components/HeaderSection";
+import IconSection from "./components/IconSection";
 import IntroSection from "./components/IntroSection";
 import ProjectsSection from "./components/ProjectsSection";
 import LogoSection from "./components/LogoSection";
 import AchievementsSection from "./components/AchievementSection";
 import PlanSection from "./components/PlanSection";
 import { ScrollToTopButton } from "./components/ScrollToTopButton";
-
-
+import ExampleSection from "./components/ExampleSection";
 
 export default function Home() {
   return (
@@ -21,7 +21,9 @@ export default function Home() {
         <Navbar />
         {/* <div className="container mt-24 mx-auto px-12 py-4"> */}
         <HeaderSection />
+        <IconSection />
         <IntroSection />
+        <ExampleSection />
         <AchievementsSection />
         <ProjectsSection />
         <LogoSection />
