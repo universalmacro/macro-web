@@ -15,7 +15,7 @@ const ExampleSection = () => {
           />
           <CardBlock img={"./images/ui/pic4.jpg"} content={"餐飲系統"} />
           <CardBlock
-            img={"./images/ui/PIC3.png"}
+            img={"./images/ui/pic6.jpg"}
             content={"手機應用APP/小程式開發"}
           />
         </div>
