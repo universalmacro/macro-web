@@ -8,19 +8,23 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "首頁",
-    path: "#index",
+    path: "/#index",
+  },
+  {
+    title: "解決方案",
+    path: "#",
+  },
+  {
+    title: "過往項目",
+    path: "/projects",
   },
   {
     title: "關於我們",
-    path: "#about",
-  },
-  {
-    title: "我們的評價",
-    path: "#projects",
+    path: "/#about",
   },
   {
     title: "聯絡我們",
-    path: "#contact",
+    path: "/#contact",
   },
 ];
 

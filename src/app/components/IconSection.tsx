@@ -7,8 +7,8 @@ import CardBlock from "./cardblock";
 const IconSection = () => {
   return (
     <section id="icon" className="lg:pt-16 lg:pb-0">
-      <div className="container mt-18 mx-auto px-12 py-4">
-        <div className="grid grid-cols-2 sm:grid-cols-[repeat(auto-fit,_22.666666%)]  flex justify-center w-full">
+      <div className="container mt-18 mx-auto py-4">
+        <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,_22.666666%)]  flex justify-center place-items-center w-full">
           <CardBlock
             content={"互聯網軟件開發、應用開發、移動應用開發"}
             img={"./images/ui/icon1.png"}
@@ -27,7 +27,7 @@ const IconSection = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-[repeat(auto-fit,_25.666666%)]  flex justify-center w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,_25.666666%)]  flex justify-center place-items-center w-full">
           <CardBlock
             img={"./images/ui/icon5.png"}
             content={"物聯網、智能硬件等相關產品的研發和生產"}
