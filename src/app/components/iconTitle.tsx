@@ -10,7 +10,7 @@ const IconTitle = ({ title }: any) => {
         width={60}
         height={60}
         className="inline mr-4 w-[60px]"
-        src="/images/ui/LOGO2.png"
+        src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/LOGO2.png"
         alt=""
       />
       <h2 className="text-center text-[32px] font-bold text-white lg:text-[40px]">
