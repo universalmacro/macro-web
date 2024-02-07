@@ -9,6 +9,7 @@ const IconTitle = ({ title }: any) => {
       <Image
         width={60}
         height={60}
+        unoptimized
         className="inline mr-4 w-[60px]"
         src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/LOGO2.png"
         alt=""
