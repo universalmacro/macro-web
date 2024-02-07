@@ -1,11 +1,11 @@
 FROM node:20.10.0 as BUILD_IMAGE
 WORKDIR /app
-COPY package.json yarn.lock ./
+COPY package.json ./
 # install dependencies
-RUN yarn install --frozen-lockfile
+RUN npm install
 COPY . .
 # build
-RUN yarn build
+RUN npm run build
 # remove dev dependencies
 RUN npm prune --production
 FROM node:20.10.0
@@ -16,4 +16,4 @@ COPY --from=BUILD_IMAGE /app/node_modules ./node_modules
 COPY --from=BUILD_IMAGE /app/.next ./.next
 COPY --from=BUILD_IMAGE /app/public ./public
 EXPOSE 3000
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
