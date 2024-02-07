@@ -24,9 +24,10 @@ const IntroSection = () => {
           <div className="col-span-5 place-self-center mt-4 lg:mt-0">
             <div className="lg:w-[650px] lg:h-[650px] relative w-[250px] h-[250px]">
               <Image
-                src="/images/ui/pic1.png"
+                src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/pic1.png"
                 alt="hero image"
-                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                priority={true}
+                className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-auto"
                 width={500}
                 height={500}
               />

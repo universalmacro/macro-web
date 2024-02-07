@@ -24,7 +24,9 @@ const HeaderSection = () => {
         </div>
         <img
           className="h-[320px] w-full rounded-r-lg object-cover md:rounded-none md:rounded-r-lg"
-          src={"./images/ui/header.jpg"}
+          src={
+            "https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/header.jpg?imageView2/1/w/694/h/300/q/85"
+          }
           alt=""
         />
       </div>

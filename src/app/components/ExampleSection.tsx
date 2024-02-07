@@ -13,12 +13,21 @@ const ExampleSection = () => {
       <div className="container mt-18 mx-auto py-4">
         <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,_26.666666%)] justify-center place-items-center w-full">
           <CardBlock
-            img={"./images/ui/pic2.png"}
+            img={
+              "https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/pic2.png"
+            }
             content={"電商及各類應用網站"}
           />
-          <CardBlock img={"./images/ui/pic4.jpg"} content={"餐飲系統"} />
           <CardBlock
-            img={"./images/ui/pic6.jpg"}
+            img={
+              "https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/pic4.jpg"
+            }
+            content={"餐飲系統"}
+          />
+          <CardBlock
+            img={
+              "https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/pic6.jpg"
+            }
             content={"手機應用APP/小程式開發"}
           />
         </div>
