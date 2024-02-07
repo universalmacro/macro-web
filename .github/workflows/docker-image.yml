@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - "main"
-
+env:
+  PORT: "10082"
+  DOCKER_NAME: "macro-web"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,8 +25,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          build-args: |
-            TOKEN=${{ secrets.GITHUB }}
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ vars.DOCKER_NAME }}:latest
       - name: Update docker
@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            sudo docker pull ${{ secrets.DOCKERHUB_USERNAME }}/${{ vars.DOCKER_NAME }}
-            sudo docker stop ${{ vars.DOCKER_NAME }}
-            sudo docker rm ${{ vars.DOCKER_NAME }}
-            sudo docker run -dp 10082:3000 --name ${{ vars.DOCKER_NAME }} ${{ secrets.DOCKERHUB_USERNAME }}/${{ vars.DOCKER_NAME }}
+            sudo docker pull ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_NAME }}
+            sudo docker stop ${{ env.DOCKER_NAME }}
+            sudo docker rm ${{ env.DOCKER_NAME }}
+            sudo docker run -dp ${{env.PORT}}:3000 --name ${{ env.DOCKER_NAME }} ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_NAME }}
