@@ -14,6 +14,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/logo.tencent.svg"
                 height={330}
                 width={330}
+                unoptimized
                 className="max-w-none"
                 alt="Image 1"
               />
@@ -22,6 +23,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/fortune.png"
                 height={180}
                 width={180}
+                unoptimized
                 className="max-w-none"
                 alt="Image 2"
               />
@@ -30,6 +32,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/heshi.png"
                 height={180}
                 width={180}
+                unoptimized
                 className="max-w-none"
                 alt="Image 3"
               />
@@ -38,6 +41,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/grantit.jpg"
                 height={180}
                 width={280}
+                unoptimized
                 className="max-w-none"
                 alt="Image 4"
               />
@@ -46,6 +50,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/feie.png"
                 height={180}
                 width={530}
+                unoptimized
                 className="max-w-none"
                 alt="Image 5"
               />
@@ -59,6 +64,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/logo.tencent.svg"
                 height={330}
                 width={330}
+                unoptimized
                 className="max-w-none"
                 alt="Image 1"
               />
@@ -67,6 +73,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/fortune.png"
                 height={180}
                 width={180}
+                unoptimized
                 className="max-w-none"
                 alt="Image 2"
               />
@@ -75,6 +82,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/heshi.png"
                 height={180}
                 width={180}
+                unoptimized
                 className="max-w-none"
                 alt="Image 3"
               />
@@ -83,6 +91,7 @@ const LogoSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/grantit.jpg"
                 height={180}
                 width={280}
+                unoptimized
                 className="max-w-none"
                 alt="Image 4"
               />

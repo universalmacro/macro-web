@@ -27,6 +27,7 @@ const IntroSection = () => {
                 src="https://static-1318552943.cos.ap-singapore.myqcloud.com/macro/ui/pic1.png"
                 alt="hero image"
                 priority={true}
+                unoptimized
                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-full h-auto"
                 width={500}
                 height={500}
