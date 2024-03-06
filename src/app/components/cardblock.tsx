@@ -9,7 +9,7 @@ const CardBlock = ({ content, img }: any) => {
         <img className="rounded-t-lg " src={img} alt="" />
       </div>
       <div className="p-6">
-        <p className="text-base text-center text-neutral-600 dark:text-neutral-200">
+        <p className="text-base text-center text-neutral-200 dark:text-neutral-200">
           {content}
         </p>
       </div>

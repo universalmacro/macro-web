@@ -12,7 +12,7 @@ const navLinks = [
   },
   {
     title: "解決方案",
-    path: "#",
+    path: "/solution",
   },
   {
     title: "過往項目",
