@@ -28,7 +28,7 @@ export default function Home() {
         {/* <ProjectsSection /> */}
         <StaticLogoSection />
 
-        <EmailSection />
+        {/* <EmailSection /> */}
         {/* </div> */}
         <Footer />
       </main>
